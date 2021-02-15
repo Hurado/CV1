@@ -1,37 +1,161 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My resume</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="left-side">
+        <img
+          src="./images/IMG_0487-2048p.jpg"
+          alt="photo Arek Piaszczynski"
+          width="370"
+          class="photo"
+        />
 
-You can use the [editor on GitHub](https://github.com/Hurado/CV1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+        <section class="contacts">
+          <h2 class="contacts-title">Contacts</h2>
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              Phone:
+              <a href="tel:+667589465" class="contacts-link"
+                >+48 667589465</a
+              >
+            </li>
+            <li class="contacts-item">
+              E-mail:
+              <a href="piaszczynskiarkadiusz@gmail.com" class="contacts-link"
+                >piaszczynskiarkadiusz@gmail.com</a
+              >
+            </li>
+          </ul>
+        </section>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <section class="skills">
+          <h2 class="skills-title">Tech skills</h2>
+          <ul class="skills-list">
+            <li class="skills-item">HTML</li>
+            <li class="skills-item">CSS</li>
+            <li class="skills-item">Git</li>
+            <li class="skills-item">JavaScript-learning</li>
+            <li class="skills-item">React-learning</li>
+            <li class="skills-item">Node.js-learning</li>
+          </ul>
+        </section>
+        <section class="skills">
+          <h2 class="skills-title">Soft skills</h2>
+          <ul class="skills-list">
+            <li class="skills-item">Scrum-learning</li>
+            <li class="skills-item">Agile-learning</li>
+            <li class="skills-item">GTD-learning</li>
+            <li class="skills-item">Teamwork-learning</li>
+          </ul>
+        </section>
+        <section class="widget">
+          <a class="widget-link" href="./resume_pdf.pdf" download
+            >Download Resume</a
+          >
+        </section>
+      </aside>
+      <div class="right-side">
+        <section class="bio">
+          <h1 class="bio-title">Arkadiusz Piaszczyński</h1>
+          <p class="bio-occupation">Front-end developer</p>
+          <p class="bio-about">
+            Dążę do rozwoju , zdobycia nowych umiejętności i zwiększenia poziomu już
+posiadanych
+          </p>
+        </section>
 
-### Markdown
+        <section class="projects">
+          <h2 class="projects-title">Projects</h2>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+          <ol>
+            <li>
+              <a href="https://barbershop.goit.global" class="projects-link">
+                CV
+              </a>
+            </li>
+            <li>
+              <a href="https://cryptohub.goit.global/" class="projects-link">
+                cryptohub.goit.global
+              </a>
+            </li>
+            <li>
+              <a href="https://kidslike.goit.global/" class="projects-link">
+                kidslike.goit.global
+              </a>
+            </li>
+          </ol>
+        </section>
+        <section class="jobs">
+          <h2 class="jobs-title">Employment history</h2>
 
-```markdown
-Syntax highlighted code block
+          <h3 class="jobs-occupation">
+            Front-end developer at
+            <span class="accent">Freelance</span>
+          </h3>
 
-# Header 1
-## Header 2
-### Header 3
+          <p class="jobs-time">January 2021 - up to now</p>
 
-- Bulleted
-- List
+          <ul class="experience">
+            <li class="experience-item">Lorem ipsum dolor sit amet...</li>
+            <li class="experience-item">Risus commodo viverra maecenas.</li>
+            <li class="experience-item">Lorem ipsum dolor sit amet...</li>
+          </ul>
 
-1. Numbered
-2. List
+          <h3 class="jobs-occupation">
+            R&D Manager at <span class="accent">Mars, the red planet</span>
+          </h3>
+          <p class="jobs-time">March 2018 - January 2021</p>
+          <ul class="experience">
+            <li class="experience-item">Lorem ipsum dolor sit amet...</li>
+            <li class="experience-item">Risus commodo viverra maecenas.</li>
+            <li class="experience-item">Lorem ipsum dolor sit amet...</li>
+          </ul>
 
-**Bold** and _Italic_ and `Code` text
+          <h3 class="jobs-occupation">
+            Manager at <span class="accent">Mars, the red planet</span>
+          </h3>
+          <p class="jobs-time">June 2015 - March 2018</p>
+          <ul class="experience">
+            <li class="experience-item">Lorem ipsum dolor sit amet...</li>
+            <li class="experience-item">Risus commodo viverra maecenas.</li>
+            <li class="experience-item">Lorem ipsum dolor sit amet...</li>
+          </ul>
+        </section>
+        <section class="education">
+          <h2 class="education-title">Education</h2>
 
-[Link](url) and ![Image](src)
-```
+          <h3 class="education-degree">
+            HTML,CSS, basic of Javascript at
+            <span class="accent">CodersCamp</span>
+          </h3>
+          <p class="education-time">September 2020 - January 2021</p>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+          <h3 class="education-degree">
+            Projects <span class="accent">TheOdinProject</span>
+          </h3>
+          <p class="education-time">January 2021 - to this day</p>
+          <h3 class="education-degree">
+            HTML, CSS <span class="accent">FreeCodeCamp</span>
+          </h3>
+          <p class="education-time">January 2021 - to this day</p>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Hurado/CV1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
